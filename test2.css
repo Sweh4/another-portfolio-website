@@ -1,0 +1,138 @@
+@font-face {
+    font-family: sacramento;
+    src: url(fontovi/Sacramento-Regular.ttf);
+  }
+
+@font-face {
+    font-family: zilla;
+    src: url(fontovi/ZillaSlab-Light.ttf);
+}
+
+body {
+    font-family: zilla;
+    font-size: 14px;
+    background-color: #F3DCD4;
+}
+
+.header {
+    font-family: sacramento;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.header h1 {
+    color: #DD7564;
+    margin: 0px 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    border: 2px solid rgb(45, 101, 255);
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(70, 184, 255);
+}
+
+.active {
+    background-color: rgb(31, 167, 252);
+}
+
+.contact {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  border: 2px solid darkcyan;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset 3px 3px 6px gray;
+}
+
+.contact h2 {
+    margin: 10px 10px;
+    padding: 10px 10px;  
+    text-align: center;
+    text-decoration: underline;
+}
+  
+.contact p{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.contact input[type="text"] {
+    width: 88%;
+}
+ 
+.contact input[type="text"], select, textarea {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    display: block;
+    box-shadow: inset 2px 2px 5px lightgray; 
+}
+
+textarea {
+    width: 88%;
+    height: 100px;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    margin: 10px 10px;
+    padding: 10px 10px; 
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 6px lightgray;
+    cursor: pointer;
+}
+
+button:active {
+    margin: 10px 10px;
+    padding: 10px 10px; 
+    color: red;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 6px rgb(73, 73, 73);
+    cursor: pointer;
+}
+
+#container1 {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  #footer p{
+
+      font-size: 14px;
+      color: #DD7564;
+  }
+
+  #tekst img{
+    text-align: center; 
+  }

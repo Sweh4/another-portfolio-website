@@ -8,11 +8,12 @@
     box-shadow: inset 3px 3px 6px gray;
   }
   
-  .contact h2 {
+  .naslov_contactme h2 {
       margin: 10px 10px;
-      padding: 10px 10px;  
+      padding: 10px 10px;
       text-align: center;
-      text-decoration: underline;
+      font-family: gorditas;
+      color: #d16e5f;
   }
     
   .contact p{

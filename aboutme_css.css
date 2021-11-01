@@ -1,3 +1,16 @@
+@font-face {
+  font-family: gorditas;
+  src: url(fontovi/Gorditas-Bold.ttf);
+}
+
+.naslov_aboutme h2 {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: gorditas;
+  color: #d16e5f;
+}
+
 .tekst {
     background-color: white;
     box-shadow: inset 5px 5px 15px lightgray; 

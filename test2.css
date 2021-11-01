@@ -8,6 +8,11 @@
     src: url(fontovi/ZillaSlab-Light.ttf);
 }
 
+@font-face {
+    font-family: gorditas;
+    src: url(fontovi/Gorditas-Bold.ttf);
+}
+
 body {
     font-family: zilla;
     font-size: 14px;

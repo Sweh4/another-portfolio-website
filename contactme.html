@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="test2.css" />
     <link rel="stylesheet" type="text/css" href="contactme_css.css">
+
+    
   
     <title>Contact me</title>
 
@@ -24,9 +26,12 @@
 
 </div>
 
+<div class="naslov_contactme">
+    <h2>Contact me!</h2>
+</div>
+
 <div id="container2">
     <div class="contact">
-        <h2>Contact me!</h2>
         <p>Name:</p>
         <input type="text"> 
         <p>Surname:</p>
@@ -45,8 +50,8 @@
         <p>Notes:</p>
         <textarea>Notes</textarea>
             <div class="buttons">
-                <button>Submit</button>
-                <button id="back">Back</button>
+                <button onclick="javascript:window.alert('Successfully submitted!');">Submit</button>
+                <button id="back" onclick="window.location='tabele.html';">Back</button>
             </div>
         </div>
 </div>

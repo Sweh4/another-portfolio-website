@@ -1,6 +1,6 @@
 .contact {
     margin: auto;
-    width: 40%;
+    width: 50%;
     background-color: white;
     border: 2px solid #E8a87c;
     border-radius: 10px;
@@ -8,11 +8,12 @@
     box-shadow: inset 3px 3px 6px gray;
   }
   
-  .contact h2 {
+  .naslov_contactme h2 {
       margin: 10px 10px;
-      padding: 10px 10px;  
+      padding: 10px 10px;
       text-align: center;
-      text-decoration: underline;
+      font-family: gorditas;
+      color: #d16e5f;
   }
     
   .contact p{
@@ -20,8 +21,8 @@
       padding: 0 10px;
   }
   
-  .contact input[type="text"] {
-      width: 93%;
+  .contact input[type="text"], textarea {
+      width: 90%;
   }
    
   .contact input[type="text"], select, textarea {
@@ -34,8 +35,8 @@
   }
   
   textarea {
-      width: 93%;
       height: 100px;
+      resize: none;
   }
   
   select {

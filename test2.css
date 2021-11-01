@@ -32,9 +32,9 @@ ul {
     margin: 10px;
     padding: 0;
     overflow: hidden;
-    background-color: lightskyblue;
+    background-color: #e4c5ab;
     border-radius: 10px;
-    border: 2px solid rgb(45, 101, 255);
+    border: 2px solid #daad86;
 }
 
 li {
@@ -51,18 +51,18 @@ li a{
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(70, 184, 255);
+    background-color: #daad86;
 }
 
 .active {
-    background-color: rgb(31, 167, 252);
+    background-color: #c79d7a;
 }
 
 .contact {
   margin: auto;
-  width: 50%;
+  width: 40%;
   background-color: white;
-  border: 2px solid darkcyan;
+  border: 2px solid #E8a87c;
   border-radius: 10px;
   padding: 10px;
   box-shadow: inset 3px 3px 6px gray;
@@ -81,7 +81,7 @@ li a:hover:not(.active) {
 }
 
 .contact input[type="text"] {
-    width: 88%;
+    width: 93%;
 }
  
 .contact input[type="text"], select, textarea {
@@ -94,7 +94,7 @@ li a:hover:not(.active) {
 }
 
 textarea {
-    width: 88%;
+    width: 93%;
     height: 100px;
 }
 
@@ -127,12 +127,55 @@ button:active {
     padding: 20px;
   }
 
-  #footer p{
+#footer p{
 
-      font-size: 14px;
-      color: #DD7564;
+    font-size: 14px;
+    color: #DD7564;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    text-align: left;
+ }
+
+ hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    text-align: left;
   }
 
-  #tekst img{
-    text-align: center; 
+  .tekst {
+    background-color: white;
+    box-shadow: inset 5px 5px 15px lightgray; 
+    border: 2px solid #daad86;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    text-align: left;
   }
+
+  .tekst h3{
+    text-align: center;
+  }
+
+  .tekst p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    text-align: left;
+  }
+
+  .tekst img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    border-style: solid;
+    border-radius: 5px;
+  }
+

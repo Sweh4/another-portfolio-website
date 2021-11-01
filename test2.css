@@ -32,9 +32,9 @@ ul {
     margin: 10px;
     padding: 0;
     overflow: hidden;
-    background-color: lightskyblue;
+    background-color: #e4c5ab;
     border-radius: 10px;
-    border: 2px solid rgb(45, 101, 255);
+    border: 2px solid #daad86;
 }
 
 li {
@@ -51,88 +51,30 @@ li a{
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(70, 184, 255);
+    background-color: #daad86;
 }
 
 .active {
-    background-color: rgb(31, 167, 252);
+    background-color: #c79d7a;
 }
 
-.contact {
-  margin: auto;
-  width: 50%;
-  background-color: white;
-  border: 2px solid darkcyan;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: inset 3px 3px 6px gray;
-}
 
-.contact h2 {
-    margin: 10px 10px;
-    padding: 10px 10px;  
-    text-align: center;
-    text-decoration: underline;
-}
-  
-.contact p{
-    margin: 0 10px;
-    padding: 0 10px;
-}
+#footer p{
 
-.contact input[type="text"] {
-    width: 88%;
-}
- 
-.contact input[type="text"], select, textarea {
-    margin: 10px;
-    padding: 5px 10px;
-    border: 1px solid darkgrey;
-    border-radius: 5px;
+    font-size: 14px;
+    color: #DD7564;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     display: block;
-    box-shadow: inset 2px 2px 5px lightgray; 
-}
+    text-align: left;
+ }
 
-textarea {
-    width: 88%;
-    height: 100px;
-}
-
-select {
-    cursor: pointer;
-}
-
-button {
-    margin: 10px 10px;
-    padding: 10px 10px; 
-    border: 1px solid darkgrey;
-    border-radius: 10px;
-    box-shadow: inset 3px 3px 6px lightgray;
-    cursor: pointer;
-}
-
-button:active {
-    margin: 10px 10px;
-    padding: 10px 10px; 
-    color: red;
-    border: 1px solid darkgray;
-    border-radius: 10px;
-    box-shadow: inset 3px 3px 6px rgb(73, 73, 73);
-    cursor: pointer;
-}
-
-#container1 {
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 20px;
+ hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+    text-align: left;
   }
 
-  #footer p{
-
-      font-size: 14px;
-      color: #DD7564;
-  }
-
-  #tekst img{
-    text-align: center; 
-  }

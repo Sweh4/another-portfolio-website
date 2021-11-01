@@ -1,6 +1,6 @@
 .contact {
     margin: auto;
-    width: 40%;
+    width: 50%;
     background-color: white;
     border: 2px solid #E8a87c;
     border-radius: 10px;
@@ -21,8 +21,8 @@
       padding: 0 10px;
   }
   
-  .contact input[type="text"] {
-      width: 93%;
+  .contact input[type="text"], textarea {
+      width: 90%;
   }
    
   .contact input[type="text"], select, textarea {
@@ -35,8 +35,8 @@
   }
   
   textarea {
-      width: 93%;
       height: 100px;
+      resize: none;
   }
   
   select {

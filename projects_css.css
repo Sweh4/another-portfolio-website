@@ -15,5 +15,45 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-  }
+}
 
+.meni {
+    width: 40%; 
+    margin-left: 10px; 
+    border-radius: 10px;
+    border: 5px solid #c79d7b;
+    box-shadow: 0 4px 8px 0 #5D4037;
+    display: block;
+    background-color: #e4c5ab;
+}
+
+.meni img {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: block;
+    background-color: #e4c5ab;
+}
+
+.meni:hover {
+    box-shadow: 4px 4px 8px 4px #5D4037;
+    transition: all 0.2s ease-in-out;
+}
+
+.meni h3 {
+    font-family: gorditas;
+    text-align: center;
+    color: #d16e5f;
+}
+
+.meni p {
+    text-align: justify;
+    margin: 10px;
+    box-shadow: initial 5px 5px 15px lightgray; 
+    border: 2px solid #e4cebc;  
+    background-color: #e4cebc;
+    border-radius: 5px;
+    
+}

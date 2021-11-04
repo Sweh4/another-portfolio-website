@@ -45,17 +45,25 @@
 
   .social {
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     text-align: center;
     display: inline-block;
     vertical-align: middle;  
-    font-size: 15px;  
+    font-size: 20px;  
   }
 
   .social img {
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     display: inline-block;
     width: 20px;
     vertical-align: middle;
+  }
+
+.social_naslov {
+    text-align: center;
+    font-family: gorditas;
+    color: #d16e5f;
   }

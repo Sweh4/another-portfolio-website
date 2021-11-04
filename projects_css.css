@@ -10,3 +10,16 @@
     font-family: gorditas;
     color: #d16e5f;
 }
+
+#slika_projects {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+#sui_projects {
+    font-family: gorditas;
+    text-align: center;
+    color: #a14d40;
+    margin-top: 100px;
+}

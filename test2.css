@@ -57,6 +57,7 @@ li a{
 
 li a:hover:not(.active) {
     background-color: #daad86;
+    transition: all 0.2s ease-in;
 }
 
 .active {

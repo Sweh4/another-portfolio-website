@@ -25,6 +25,7 @@
     box-shadow: 0 4px 8px 0 #5D4037;
     display: block;
     background-color: #e4c5ab;
+    cursor: url(slike/click_c.png), auto;
 }
 
 .meni img {
@@ -35,17 +36,20 @@
     border-radius: 10px;
     display: block;
     background-color: #e4c5ab;
+    cursor: url(slike/click_c.png), auto;
 }
 
 .meni:hover {
     box-shadow: 4px 4px 8px 4px #5D4037;
     transition: all 0.2s ease-in-out;
+    cursor: url(slike/click_c.png), auto;
 }
 
 .meni h3 {
     font-family: gorditas;
     text-align: center;
     color: #d16e5f;
+    cursor: url(slike/click_c.png), auto;
 }
 
 .meni p {
@@ -55,5 +59,6 @@
     border: 2px solid #e4cebc;  
     background-color: #e4cebc;
     border-radius: 5px;
-    
+    cursor: url(slike/click_c.png), auto;
+
 }

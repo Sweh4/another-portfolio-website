@@ -13,10 +13,16 @@
     src: url(fontovi/Gorditas-Bold.ttf);
 }
 
+@font-face {
+    font-family: nycd;
+    src: url(fontovi/NothingYouCouldDo-Regular.ttf);
+}
+
 body {
     font-family: zilla;
     font-size: 14px;
     background-color: #F3DCD4;
+    cursor: url(slike/cursor.png), auto;
 }
 
 .header {
@@ -25,11 +31,13 @@ body {
     text-align: center;
     margin: 0px auto;
     padding: 20px;
+    cursor: url(slike/click_c.png), auto;
 }
 
 .header h1 {
     color: #DD7564;
     margin: 0px 0px;
+    cursor: url(slike/click_c.png), auto;
 }
 
 ul {
@@ -40,10 +48,12 @@ ul {
     background-color: #e4c5ab;
     border-radius: 10px;
     border: 2px solid #daad86;
+    cursor: url(slike/cursor.png), auto;
 }
 
 li {
     float: left;
+    cursor: url(slike/cursor.png), auto;
 }
 
 li a{
@@ -53,15 +63,18 @@ li a{
     text-align: center;
     color: black;
     border-radius: 10px;
+    cursor: url(slike/cursor.png), auto;
 }
 
 li a:hover:not(.active) {
     background-color: #daad86;
     transition: all 0.2s ease-in;
+    cursor: url(slike/click_c.png), auto;
 }
 
 .active {
     background-color: #c79d7a;
+    cursor: url(slike/cursor.png), auto;
 }
 
 
@@ -88,6 +101,7 @@ li a:hover:not(.active) {
     margin: 20px auto;
     max-width: 800px;
     padding: 20px;
+
   }
 
 #sui_home {
@@ -102,3 +116,58 @@ li a:hover:not(.active) {
     margin-right: auto;
     display: block;
   }
+   
+.tekst_home {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 10px;
+}
+
+.header h1 span {
+    transition: .5s linear;
+}
+
+.header h1 span:nth-child(1) {
+    margin-right: 5px;
+}
+
+.header h1 span:nth-child(1):after {
+    content: " ";
+}
+
+.header h1:hover span {
+    color: #DD7564;
+    text-shadow: 0 0 10px azure,
+                 0 0 20px #DD7564,
+                 0 0 30px #DD7564;
+}
+
+a img {
+    cursor: url(slike/click_c.png), auto;
+}
+
+.tekst_home {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekst_home h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    color: #e48172;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: nycd;
+    cursor: url(slike/click_c.png), auto;
+}
+

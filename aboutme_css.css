@@ -44,13 +44,14 @@
   }
 
   .social {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 10px;
     text-align: center;
     display: inline-block;
     vertical-align: middle;  
     font-size: 20px;  
+    cursor: url(slike/cursor.png), auto;
   }
 
   .social img {
@@ -60,6 +61,7 @@
     display: inline-block;
     width: 20px;
     vertical-align: middle;
+    cursor: url(slike/click_c.png), auto;
   }
 
 .social_naslov {
@@ -67,3 +69,19 @@
     font-family: gorditas;
     color: #d16e5f;
   }
+
+.social a:hover {
+  cursor: url(slike/click_c.png), auto;
+}
+
+.social a, a:visited {
+  color: black;
+  text-align: center;
+  text-decoration:none;
+  font-style: italic;
+  display: inline-block;
+}
+
+.social img {
+  cursor: url(slike/click_c.png), auto;
+}

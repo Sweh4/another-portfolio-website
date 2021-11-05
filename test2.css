@@ -169,5 +169,14 @@ a img {
     font-weight: bold;
     font-family: nycd;
     cursor: url(slike/click_c.png), auto;
+
+    transition: .5s linear;
+}
+
+.tekst_home h2:hover {
+    color: #DD7564;
+    text-shadow: 0 0 10px azure,
+                 0 0 20px #DD7564,
+                 0 0 30px #DD7564;
 }
 
